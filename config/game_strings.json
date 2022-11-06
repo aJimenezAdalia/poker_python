@@ -1,0 +1,41 @@
+
+
+{
+  "before_start": {
+    "welcome": "Welcome to Python Poker!",
+    "how_many_players": "How many players will play?\n",
+    "maximum_players_out_of_reach": "Poker allows a maximum of 9 players, you selected {}.",
+    "int_not_selected": "An entire number is needed to determine the number of players. Try again",
+    "proceed_start": "You selected {}. Do you want to continue or change the number of players?"
+  },
+  "starting_game": {
+
+  },
+  "pre_flop": {
+
+  },
+  "post_flop": {
+
+  },
+  "pre_turn": {
+
+  },
+  "post_turn": {
+
+  },
+  "pre_river": {
+
+  },
+  "post_river": {
+
+  },
+  "end_of_hand": {
+
+  },
+  "player_out": {
+
+  },
+  "end_of_game": {
+
+  }
+}

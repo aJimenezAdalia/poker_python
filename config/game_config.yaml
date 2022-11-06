@@ -1,0 +1,285 @@
+
+
+# Cards
+
+cards:
+  spades: 
+    ace_spades: 
+      name: "A-S" 
+      strength: 14
+      code: 1
+    two_spades: 
+      name: "2-S" 
+      strength: 2
+      code: 1
+    three_spades:
+      name: "3-S"  
+      strength: 3
+      code: 1
+    four_spades: 
+      name: "4-S" 
+      strength: 4
+      code: 1
+    five_spades: 
+      name: "5-S" 
+      strength: 5
+      code: 1
+    six_spades:
+      name: "6-S"  
+      strength: 6
+      code: 1
+    seven_spades: 
+      name: "7-S" 
+      strength: 7
+      code: 1
+    eight_spades: 
+      name: "8-S" 
+      strength: 8
+      code: 1
+    nine_spades: 
+      name: "9-S" 
+      strength: 9
+      code: 1
+    ten_spades: 
+      name: "10-S" 
+      strength: 10
+      code: 1
+    jack_spades: 
+      name: "J-S" 
+      strength: 11
+      code: 1
+    queen_spades: 
+      name: "Q-S" 
+      strength: 12
+      code: 1
+    king_spades: 
+      name: "K-S" 
+      strength: 13
+      code: 1
+
+  clubs: 
+    ace_clubs: 
+      name: "A-C" 
+      strength: 14
+      code: 2
+    two_clubs:
+      name: "2-C"  
+      strength: 2
+      code: 2
+    three_clubs:
+      name: "3-C"  
+      strength: 3
+      code: 2
+    four_clubs:
+      name: "4-C"  
+      strength: 4
+      code: 2
+    five_clubs:
+      name: "5-C"  
+      strength: 5
+      code: 2
+    six_clubs:
+      name: "6-C"  
+      strength: 6
+      code: 2
+    seven_clubs: 
+      name: "7-C" 
+      strength: 7
+      code: 2
+    eight_clubs: 
+      name: "8-C" 
+      strength: 8
+      code: 2
+    nine_clubs: 
+      name: "9-C" 
+      strength: 9
+      code: 2
+    ten_clubs: 
+      name: "10-C" 
+      strength: 10
+      code: 2
+    jack_clubs: 
+      name: "J-C" 
+      strength: 11
+      code: 2
+    queen_clubs: 
+      name: "Q-C" 
+      strength: 12
+      code: 2
+    king_clubs:
+      name: "K-C"  
+      strength: 13
+      code: 2
+
+  hearts:
+    ace_hearts: 
+      name: "A-H" 
+      strength: 14
+      code: 3
+    two_hearts: 
+      name: "2-H" 
+      strength: 2
+      code: 3
+    three_hearts: 
+      name: "3-H" 
+      strength: 3
+      code: 3
+    four_hearts:
+      name: "4-H"  
+      strength: 4
+      code: 3
+    five_hearts: 
+      name: "5-H" 
+      strength: 5
+      code: 3
+    six_hearts:
+      name: "6-H"  
+      strength: 6
+      code: 3
+    seven_hearts:
+      name: "7-H"  
+      strength: 7
+      code: 3
+    eight_hearts:
+      name: "8-H"  
+      strength: 8
+      code: 3
+    nine_hearts: 
+      name: "9-H" 
+      strength: 9
+      code: 3
+    ten_hearts: 
+      name: "10-H" 
+      strength: 10
+      code: 3
+    jack_hearts: 
+      name: "J-H" 
+      strength: 11
+      code: 3
+    queen_hearts: 
+      name: "Q-H" 
+      strength: 12
+      code: 3
+    king_hearts: 
+      name: "K-H" 
+      strength: 13
+      code: 3
+
+  diamonds: 
+    ace_diamonds: 
+      name: "A-D" 
+      strength: 14
+      code: 4
+    two_diamonds: 
+      name: "2-D" 
+      strength: 2
+      code: 4
+    three_diamonds: 
+      name: "3-D" 
+      strength: 3
+      code: 4
+    four_diamonds: 
+      name: "4-D" 
+      strength: 4
+      code: 4
+    five_diamonds: 
+      name: "5-D" 
+      strength: 5
+      code: 4
+    six_diamonds: 
+      name: "6-D" 
+      strength: 6
+      code: 4
+    seven_diamonds: 
+      name: "7-D" 
+      strength: 7
+      code: 4
+    eight_diamonds: 
+      name: "8-D" 
+      strength: 8
+      code: 4
+    nine_diamonds: 
+      name: "9-D" 
+      strength: 9
+      code: 4
+    ten_diamonds: 
+      name: "10-D" 
+      strength: 10
+      code: 4
+    jack_diamonds: 
+      name: "J-D" 
+      strength: 11
+      code: 4
+    queen_diamonds: 
+      name: "Q-D" 
+      strength: 12
+      code: 4
+    king_diamonds: 
+      name: "K-D" 
+      strength: 13
+      code: 4
+
+
+  codes:
+    1: "spades"
+    2: "clubs"
+    3: "hearts"
+    4: "diamonds"
+
+# Hands
+
+hands:
+  values:
+    high_card: 1
+    pair: 2
+    two_pair: 3
+    three_of_a_kind: 4
+    straight: 5
+    flush: 6
+    full_house: 7
+    poker: 8
+    straight_flush: 9
+    royal_flush: 10
+  
+  straights: [
+    [2, 3, 4, 5, 14],
+    [2, 3, 4, 5, 6],
+    [3, 4, 5, 6, 7],
+    [4, 5, 6, 7, 8],
+    [5, 6, 7, 8, 9],
+    [6, 7, 8, 9, 10],
+    [7, 8, 9, 10, 11],
+    [8, 9, 10, 11, 12],
+    [9, 10, 11, 12, 13],
+    [10, 11, 12, 13, 14]
+    ]
+
+  pairs: 
+    "ace": []
+    "two": []
+    "three": []
+    "four": []
+    "five": []
+    "six": []
+    "seven": []
+    "eight": []
+    "nine": []
+    "ten": []
+    "jack": []
+    "queen": []
+    "king": []
+
+  strengths:
+    14: "ace"
+    2: "two"
+    3: "three"
+    4: "four"
+    5: "five"
+    6: "six"
+    7: "seven"
+    8: "eight"
+    9: "nine"
+    10: "ten"
+    11: "jack"
+    12: "queen"
+    13: "king"
